@@ -1,4 +1,4 @@
-# 2026_C1
+# 2026_C2
 Repositorio de la materia "Programación" de la ECyT - UNSAM
 
 Link a los videos de las clases teóricas: https://drive.google.com/drive/folders/10NrlNoQ_Pt79wCq_NwzbQv_Vj8fppuuL?usp=sharing
