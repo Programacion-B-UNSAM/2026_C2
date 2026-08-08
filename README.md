@@ -26,7 +26,7 @@ Con esto el archivo se formateara correectamente al guardar.
 
 Clonar el repositorio 
 ```
-git clone https://github.com/Programacion-B-UNSAM/2026_C1.git
+git clone https://github.com/Programacion-B-UNSAM/2026_C2.git
 ```
 
 Traer ultimos cambios 
