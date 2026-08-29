@@ -6,11 +6,10 @@ La función debe intercambiar los valores de las dos variables a las que apuntan
 
 
 ======================== Ejercicio 2 ========================
-Busquen del campus el archivo "vectores.h"
+Busquen del campus el archivo "lista.bin"
 
-Escribir una función en C que calcule el valor máximo, el valor mínimo y el promedio
-de los elementos en un array de enteros (shortLVector).
-
+Escribir una función en C que calcule el valor máximo, el valor mínimo y el promedio de los elementos en un array de enteros.
+ 
 La funcion debe recibir los siguientes parámetros:
 -Un puntero a un array de enteros (arr).
 -Un entero que representa el tamaño del array (largo).
@@ -28,9 +27,7 @@ Defina una función llamada EasySort que reciba dos parámetros:
 
 La función debe:
 -Crear un array temporal para almacenar los elementos ordenados.
--Recorrer el array original y copiar los elementos en el array temporal en orden creciente.
-es decir, iterativamente, encuentra el mínimo de los elementos restantes y se coloca en
-la siguiente posición del array temporal.
+-Recorrer el array original y copiar los elementos en el array temporal en orden creciente. es decir, iterativamente, encuentra el mínimo de los elementos restantes y se coloca en la siguiente posición del array temporal.
 -Finalmente, copiar los elementos del array temporal de vuelta al array original.
 
 

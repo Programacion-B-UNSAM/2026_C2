@@ -19,7 +19,7 @@ int main() {
 }
 
 void Intercambio(int* x, int* y) {
-    /*               |  x |  y | aux */
+    /*                |  x |  y | aux */
     int aux = *x; /*  | 10 | 20 | 10  */
     *x = *y;      /*  | 20 | 20 | 10  */
     *y = aux;     /*  | 20 | 10 | 10  */
