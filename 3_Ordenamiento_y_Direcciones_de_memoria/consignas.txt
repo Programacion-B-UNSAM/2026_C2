@@ -1,0 +1,45 @@
+======================== Ejercicio 1 ========================
+Escribir una función que intercambie los valores de dos variables enteras utilizando punteros.
+
+Defina una función que reciba dos punteros a enteros como parámetros.
+La función debe intercambiar los valores de las dos variables a las que apuntan estos punteros.
+
+
+======================== Ejercicio 2 ========================
+Busquen del campus el archivo "vectores.h"
+
+Escribir una función en C que calcule el valor máximo, el valor mínimo y el promedio
+de los elementos en un array de enteros (shortLVector).
+
+La funcion debe recibir los siguientes parámetros:
+-Un puntero a un array de enteros (arr).
+-Un entero que representa el tamaño del array (largo).
+-Dos punteros a enteros (max y min) para almacenar el valor máximo y el valor mínimo, respectivamente.
+-Un puntero a un float (promedio) para almacenar el promedio de los elementos del array.
+
+
+======================== Ejercicio 3 ========================
+1 - Implementar una función en C para imprimir los elementos de un vector de enteros.
+2 - Implementar un algoritmo de ordenamiento simple en C.
+
+Defina una función llamada EasySort que reciba dos parámetros:
+    Un puntero a un array de enteros (vector).
+    Un entero que representa la longitud del array (longitud).
+
+La función debe:
+-Crear un array temporal para almacenar los elementos ordenados.
+-Recorrer el array original y copiar los elementos en el array temporal en orden creciente.
+es decir, iterativamente, encuentra el mínimo de los elementos restantes y se coloca en
+la siguiente posición del array temporal.
+-Finalmente, copiar los elementos del array temporal de vuelta al array original.
+
+
+======================== Ejercicio 4 ========================
+Realizar una funcion que implemente un BubbleSort:
+
+El Bubble Sort es un algoritmo de ordenamiento que funciona
+-revisando cada elemento del vector que va a ser ordenada con el siguiente,
+-intercambiándolos de posición si están en el orden equivocado.
+-repetir el proceso hasta que no se necesiten másintercambios
+
+https://youtu.be/Cq7SMsQBEUw
