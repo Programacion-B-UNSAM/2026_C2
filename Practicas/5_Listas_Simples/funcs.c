@@ -11,7 +11,7 @@ nodo_t *crear_nodo(int dato)
     return NULL;
   }
   nodo->num = dato;
-  nodo->next = NULL;
+  nodo->next = NULL;.
   return nodo;
 }
 
@@ -24,7 +24,11 @@ nodo_t *ins_first(nodo_t *first, int dato)
 
 void del_last(nodo_t **first)
 {
-  if ((*first)->next == NULL)
+
+  if ((*first)== NULL) /* Si esta vacia no hago nada */
+    return;
+
+  if ((*first)->next == NULL) /* Si hay uno solo lo elmino */
   {
     free(*first);
     *first = NULL;
@@ -32,7 +36,7 @@ void del_last(nodo_t **first)
   }
 
   nodo_t *aux = *first;
-  while (aux->next->next != NULL)
+  while (aux->next->next != NULL) /* Si hay mas de uno voy hasta el ante ultimo*/
   {
     aux = aux->next;
   }
