@@ -19,7 +19,7 @@ int main() {
     // findNode(Root, 15);
     // findNode(Root, 7);
 
-    printTree(Root, 0, 0);
+    printTree(Root, 0);
     printf("\n\n");
 
     return 0;
@@ -96,15 +96,15 @@ void findNode(Node* Root, int target) {
     }
 }
 
-void printTree(Node* n, int level, int isLeft) {
+void printTree(NodoArbol* n, int level) {
     if (n == NULL) {
         return;
     }
     printf("\n");
     for (int i = 0; i < level; i++) {
-        printf("  ");
+        printf("    ");
     }
-    printf("%d", n->data);
-    printTree(n->may, level + 1, 0);
-    printTree(n->men, level + 1, 0);
+    printf("└── %d", n->dato);
+    printTree(n->der, level + 1);
+    printTree(n->izq, level + 1);
 }
